@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>My Project</title>
+      <link rel="stylesheet" href="public/stylesheets/style.css">
+  </head>
+  <body>
+
+    <h1>Sign up!</h1>
+    <p>By signing up, you will be able to access all the premium features of this website.</p>
+
+    <form method="POST" action="/signup">
+        
+      <label> First Name </label>
+      <input type="text" name="firstname" placeholder="Type name" tabindex="1">
+        <br/>
+        <br/>
+      <label> Last Name </label>
+      <input type="text" name="lastname" placeholder="Type name" tabindex="2">
+        <br/>
+        <br/>
+      <label> Username </label>
+      <input type="text" name="username" placeholder="Type username" tabindex="3">
+        <br/>
+        <br/>
+      <label> Password </label>
+      <input type="password" name="password" placeholder="Type password" tabindex="4">
+        <br/>
+        <br/>
+      <label> Email </label>
+      <input type="text" name="email" placeholder="Type email" tabindex="5">
+        <br/>
+        <br/>
+      <label> Phone Number </label> 
+      <input type="tel" name="tel" placeholder="Type phone number" tabindex="6">
+        <br/>
+        <br/>
+      <label> Gender </label>
+      <input type="radio" name="gender" tabindex="7"> Male
+      <input type="radio" name="gender" tabindex="8"> Female
+        <br/>
+        <br/>
+      <label> Age </label>
+      <select tabindex="9">
+        <option value="1"> under 10 </option>
+        <option value="2"> 10-19 </option>
+        <option value="3"> 20-29 </option>
+        <option value="4"> 30-39 </option>
+        <option value="5"> 40-49 </option>
+        <option value="6"> 50 and above </option>
+      </select>
+        <br/>
+        <br/>
+      <input type="checkbox" value=true tabindex="10"> I have read and agree to the following <a href="http://www.colorpicker.com/"> terms </a>
+        <br/>
+        <br/>
+      <textarea name="comments" rows="7" cols="40" tabindex="11"> Please enter any additional information here: </textarea> 
+        <br/>
+        <br/>
+      <button type="submit" id="submit_button" tabindex="12"> Sign Up! </button>
+
+    </form>
+
+  </body>
+</html>

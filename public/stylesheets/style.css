@@ -1,0 +1,64 @@
+body {
+    background-color: #E6E345;
+}
+
+p {
+    font-size: 1.5em;
+    color: #E612A6;
+}
+
+form {
+    background-color: #A8E3E0;
+    font-family: Times;
+    max-width: 30%;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    margin-left: 4em;
+    position: relative;
+}
+
+label {
+    width: 90px;
+    display: inline-block;
+}
+input:hover {
+    background-color: #F0DEC7;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+
+textarea {
+    color: black;
+    font-size: 1em;
+    font-family: Times;
+
+}
+
+#submit_button {
+    font-size: 1.5em;
+    text-align: center;
+    height: 2em;
+    width: 8em;
+    border-radius: 20%;
+    color: white;
+    background-color: #4D69D6;
+    border: 6px ridge;
+    border-color: white;
+    position: relative;
+    margin-left: 20%;
+}
+
+
+
+
