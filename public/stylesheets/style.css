@@ -2,6 +2,11 @@ body {
     background-color: #E6E345;
 }
 
+h1 {
+    text-align: left;
+}
+
+
 p {
     font-size: 1.5em;
     color: #E612A6;
@@ -10,19 +15,12 @@ p {
 form {
     background-color: #A8E3E0;
     font-family: Times;
-    max-width: 30%;
     text-align: left;
     padding-top: 2em;
     padding-bottom: 2em;
-    padding-left: 2em;
-    margin-left: 4em;
-    position: relative;
+   
 }
 
-label {
-    width: 90px;
-    display: inline-block;
-}
 input:hover {
     background-color: #F0DEC7;
 }
@@ -46,19 +44,28 @@ textarea {
 }
 
 #submit_button {
-    font-size: 1.5em;
+    font-weight: bold;
     text-align: center;
-    height: 2em;
-    width: 8em;
+    width: 30%;
     border-radius: 20%;
     color: white;
     background-color: #4D69D6;
     border: 6px ridge;
     border-color: white;
     position: relative;
-    margin-left: 20%;
+    margin-left: 35%
 }
 
-
-
-
+#submit_button:hover {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    width: 32%;
+    border-radius: 20%;
+    color: #B5AC26;
+    background-color: #4D69D6;
+    border: 6px ridge;
+    border-color: white;
+    position: relative;
+    margin-left: 34%
+}
